@@ -1,0 +1,40 @@
+p {
+  color: red;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 1%;
+  border: 1px solid black;
+  /* padding-left: 10%; */
+  background-color: aqua;
+}
+h1 {
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 3px 3px 9px red;
+}
+p,
+li {
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+}
+
+/* p,
+li {
+  font-size: 16px;
+} */
+body {
+  width: 1600px;
+  margin: 0 auto;
+}
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
